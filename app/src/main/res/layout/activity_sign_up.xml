@@ -65,6 +65,7 @@
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
+            app:endIconMode="password_toggle"
            android:background="@drawable/rounded_corner"
           >
 
@@ -84,6 +85,7 @@
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
+            app:endIconMode="password_toggle"
            android:background="@drawable/rounded_corner"
            >
 

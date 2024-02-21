@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".SplashActivity"
     android:background="@color/my_color"
+    android:layout_gravity="center"
+
     >
 
     <ImageView
@@ -15,8 +17,5 @@
         android:layout_centerInParent="true"
         android:src="@drawable/jaldbaazi_logo"
         app:tint="@color/white"/>
-
-
-
 
 </RelativeLayout>

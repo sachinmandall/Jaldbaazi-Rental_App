@@ -51,10 +51,9 @@ public class OnboardingActivity extends AppCompatActivity {
 
     }
 
-    public void skip(View view){
-        startActivity(new Intent(this,MainActivity.class));
-        finish();
-
+    public void skip(View view) {
+        int lastPosition = dots.length - 1; // Get the last position
+        viewPager.setCurrentItem(lastPosition); // Navigate to the last position
     }
 
     public void next(View view){
@@ -114,6 +113,7 @@ public class OnboardingActivity extends AppCompatActivity {
         }
 
         lastPosition = position;
+
     }
 
     @Override

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserDashBoard.HomeFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logotopbar"
+        android:background="@color/my_color"
+        android:orientation="horizontal">
+
+        <com.google.android.material.navigation.NavigationView
+            android:layout_width="24sp"
+            android:layout_height="24sp"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="14dp"
+            app:menu="@menu/topmenunavigation"
+
+            >
+
+        </com.google.android.material.navigation.NavigationView>
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height= "40dp"
+            android:src="@drawable/jaldbaazi_logo"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="7dp"
+            app:tint="@color/white"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    </LinearLayout>
+
+</FrameLayout>

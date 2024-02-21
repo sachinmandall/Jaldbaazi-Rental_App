@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="home" />
+    <item type="id" name="community" />
+    <item type="id" name="fab" />
+    <item type="id" name="chats" />
+    <item type="id" name="profile" />
+</resources>
