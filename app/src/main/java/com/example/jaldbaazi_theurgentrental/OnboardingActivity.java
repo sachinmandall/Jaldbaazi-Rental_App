@@ -52,9 +52,9 @@ public class OnboardingActivity extends AppCompatActivity {
     }
 
     public void skip(View view){
-        startActivity(new Intent(this,MainActivity.class));
+        Intent intent = new Intent(getApplicationContext(), SignUpActivity.class);
+        startActivity(intent);
         finish();
-
     }
 
     public void next(View view){
